@@ -12,16 +12,22 @@ a:hover {
 	text-decoration: underline;
 }
 
-.logo {
+.header {
 	width: 100%;
 	max-width: 1200px;
 	margin: 2em auto;
 	text-align: center;
 }
 
-.logo img {
+.banner {
 	width: 90%;
 	height: auto !important;
+}
+
+.logo {
+	max-width: 60%;
+	max-height: 50vh;
+	display: none;
 }
 
 .buttonbar {
@@ -32,7 +38,7 @@ a:hover {
 
 .button {
 	display: inline-block;
-	margin: 2em;
+	margin: 1em 2em;
 	width: 24%;
 	min-width: 50px;
 	max-width: 100px;
@@ -40,5 +46,19 @@ a:hover {
 
 .button img {
 	width: 100%;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.2em;
+}
+
+@media screen and (max-aspect-ratio: 4/5) {
+	.logo {
+		display: inline;
+	}
+	.banner {
+		display: none;
+	}
+	.buttonbar {
+		margin: 2em auto 0;
+		text-align: center;
+		width:  80%;
+	}
 }
