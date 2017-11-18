@@ -38,10 +38,10 @@ a:hover {
 
 .button {
 	display: inline-block;
-	margin: 1em 2em;
+	margin: 1em 1.75em;
 	width: 24%;
-	min-width: 50px;
-	max-width: 100px;
+	min-width: 40px;
+	max-width: 80px;
 }
 
 .button img {
