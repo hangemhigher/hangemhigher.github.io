@@ -38,10 +38,14 @@ a:hover {
 
 .button {
 	display: inline-block;
-	margin: 1em 1.75em;
+	margin: 1em 0;
 	width: 24%;
-	min-width: 40px;
-	max-width: 80px;
+	min-width: 120px;
+	max-width: 160px;
+}
+
+.button-image {
+	margin: 0 20% 0;
 }
 
 .button img {
@@ -50,6 +54,9 @@ a:hover {
 }
 
 @media screen and (max-aspect-ratio: 4/5) {
+	.header {
+		margin: 2em auto 1em;
+	}
 	.logo {
 		display: inline;
 	}
@@ -57,7 +64,7 @@ a:hover {
 		display: none;
 	}
 	.buttonbar {
-		margin: 2em auto 0;
+		margin: 1em auto 0;
 		text-align: center;
 		width:  80%;
 	}
